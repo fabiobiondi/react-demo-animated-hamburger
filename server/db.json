@@ -1,0 +1,18 @@
+{
+  "config": [
+    { "icon": "fa fa-google", "url": "http://www.google.com"},
+    { "icon": "fa fa-windows", "url": "http://www.microsoft.com"},
+    { "icon": "fa fa-facebook", "url": "http://www.facebook.com"},
+    { "icon": "fa fa-linkedin", "url": "http://www.linkedin.com"},
+    { "icon": "fa fa-instagram", "url": "http://www.instagram.com"},
+    { "icon": "fa fa-youtube", "url": "http://www.youtube.com"}
+  ],
+  "configRoutes": [
+    { "icon": "fa fa-home", "url": "home"},
+    { "icon": "fa fa-list", "url": "catalog"},
+    { "icon": "fa fa-envelope", "url": "contacts"},
+    { "icon": "fa fa-linkedin", "url": "home"},
+    { "icon": "fa fa-instagram", "url": "catalog"},
+    { "icon": "fa fa-youtube", "url": "contacts"}
+  ]
+}

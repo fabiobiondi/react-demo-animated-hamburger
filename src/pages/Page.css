@@ -1,0 +1,31 @@
+.page {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-wrapper {
+  color: #222;
+  width: 50vw;
+  height: 50vh;
+  padding: 20px;
+  min-width: 300px;
+  background-color: white;
+  align-self: center;
+  overflow-y: auto;
+  box-shadow: 0 5px 10px rgba(154,160,185,.5), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.page-wrapper .close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 2em;
+}
