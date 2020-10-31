@@ -2,8 +2,6 @@
 
 This is a simple component I have create to my course React / TypeScript in order to learn:
 
-![Preview with routes](https://github.com/fabiobiondi/react-demo-animated-hamburger/blob/master/previews/animated-preview-with-routes.gif)
-
 * styling
 * handle state with hooks by using `useState`
 * load data with Axios and `useEffect`
@@ -12,6 +10,11 @@ This is a simple component I have create to my course React / TypeScript in orde
 * Work with props
 * Create reusable components
 * Simple Router with React Router
+
+## DEMO
+![Preview with routes](https://github.com/fabiobiondi/react-demo-animated-hamburger/blob/master/previews/animated-preview-with-routes.gif)
+
+
 
 ## USAGE
 
