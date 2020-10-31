@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Animated Hamburger 
 
-This is a simple component I have create to my course React / TypeScript in order to learn:
+This is a simple component I have created for my React / TypeScript free online course
 
-* styling
+## GOALS
+
+* Learn React / TypeScript
+* dynamic styling
 * handle state with hooks by using `useState`
 * load data with Axios and `useEffect`
 * dynamic list creation
