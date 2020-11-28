@@ -14,5 +14,43 @@
     { "icon": "fa fa-linkedin", "url": "home"},
     { "icon": "fa fa-instagram", "url": "catalog"},
     { "icon": "fa fa-youtube", "url": "contacts"}
+  ],
+  "catalog": [
+    {
+      "id": 1,
+      "city": "Trieste",
+      "address": "V. Marconi 12",
+      "title": "B&B da tony"
+    },
+    {
+      "id": 2,
+      "city": "Gorizia",
+      "address": "V. Manzoni 44",
+      "title": "Villa Sospisio"
+    },
+    {
+      "id": 3,
+      "city": "Udine",
+      "address": "V. Marconi 12",
+      "title": "B&B da tony"
+    },
+    {
+      "id": 4,
+      "city": "Pordenone",
+      "address": "V. Manzoni 44",
+      "title": "Villa Sospisio"
+    },
+    {
+      "id": 5,
+      "city": "Udine",
+      "address": "V. Marconi 12",
+      "title": "B&B da tony"
+    },
+    {
+      "id": 6,
+      "city": "Pordenone",
+      "address": "V. Manzoni 44",
+      "title": "Villa Sospisio"
+    }
   ]
 }

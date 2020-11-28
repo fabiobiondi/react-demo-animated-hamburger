@@ -13,8 +13,8 @@
 
 .page-wrapper {
   color: #222;
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 70vh;
   padding: 20px;
   min-width: 300px;
   background-color: white;
@@ -28,4 +28,8 @@
   right: 10px;
   top: 10px;
   font-size: 2em;
+}
+
+.page .title {
+  padding-bottom: 20px;
 }
