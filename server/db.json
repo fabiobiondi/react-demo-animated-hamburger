@@ -38,19 +38,19 @@
       "id": 4,
       "city": "Pordenone",
       "address": "V. Manzoni 44",
-      "title": "Villa Sospisio"
+      "title": "Villa Super Cool"
     },
     {
       "id": 5,
-      "city": "Udine",
-      "address": "V. Marconi 12",
-      "title": "B&B da tony"
+      "city": "Milan",
+      "address": "V. Mario 12",
+      "title": "B&B da Mario"
     },
     {
       "id": 6,
-      "city": "Pordenone",
-      "address": "V. Manzoni 44",
-      "title": "Villa Sospisio"
+      "city": "Rome",
+      "address": "V. Trastevere 1023",
+      "title": "Home "
     }
   ]
 }
