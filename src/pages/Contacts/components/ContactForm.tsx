@@ -35,18 +35,18 @@ export const ContactForm: React.FC = () => {
 
   return <div>
     <form onSubmit={onSubmitHandler}>
-        <input
-          name="name"
-          className={classNames(
-            'form-control mb-3',
-            { 'is-valid': isNameValid },
-            { 'is-invalid': !isNameValid && dirty },
-          )}
-          type="text"
-          placeholder="Write your name..."
-          onChange={onChangeHandler}
-          value={formData.name}
-        />
+      <input
+        name="name"
+        className={classNames(
+          'form-control mb-3',
+          { 'is-valid': isNameValid },
+          { 'is-invalid': !isNameValid && dirty },
+        )}
+        type="text"
+        placeholder="Write your name..."
+        onChange={onChangeHandler}
+        value={formData.name}
+      />
 
       <input
         name="email"
