@@ -3,20 +3,20 @@ import classNames from 'classnames';
 
 
 interface FormData {
-  username: string;
+  name: string;
   email: string;
   isCompany: string;
 }
 
 export const ContactForm: React.FC = () => {
-  const [formData, setFormData] = useState<FormData>({ username: '', email: '', isCompany: ''});
+  const [formData, setFormData] = useState<FormData>({ name: '', email: '', isCompany: ''});
   const [dirty, setDirty] = useState(false);
 
-  const isUserNameValid = formData.username.length > 3;
+  const isNameValid = formData.name.length > 3;
   const isEmailValid = validateEmail(formData.email);
   const isCompanyValid = formData.isCompany !== '';
 
-  const isValid = isUserNameValid && isEmailValid && isCompanyValid;
+  const isValid = isNameValid && isEmailValid && isCompanyValid;
 
   const onChangeHandler = (e: React.FormEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData({
@@ -36,16 +36,16 @@ export const ContactForm: React.FC = () => {
   return <div>
     <form onSubmit={onSubmitHandler}>
         <input
-          name="username"
+          name="name"
           className={classNames(
             'form-control mb-3',
-            { 'is-valid': isUserNameValid },
-            { 'is-invalid': !isUserNameValid && dirty },
+            { 'is-valid': isNameValid },
+            { 'is-invalid': !isNameValid && dirty },
           )}
           type="text"
-          placeholder="Write your username..."
+          placeholder="Write your name..."
           onChange={onChangeHandler}
-          value={formData.username}
+          value={formData.name}
         />
 
       <input
