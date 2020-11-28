@@ -8,7 +8,7 @@ interface CatalogProps {
 export const CatalogList: React.FC<CatalogProps> = (props) => {
   return <div className="row">
     <div className="row">
-      { props.items.map(item => <CatalogListItem item={item} />) }
+      { props.items.map(item => <CatalogListItem key={item.id} item={item} />) }
     </div>
   </div>
 };
