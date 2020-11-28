@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Axios from 'axios';
-import { HomePage } from './pages/HomePage';
-import { ContactsPage } from './pages/Contacts/ContactsPage';
-import { CatalogPage } from './pages/CatalogPage';
-import { AnimatedHamburger, Item } from './components/AnimatedHamburger';
+import { HomePage } from './pages/home/HomePage';
+import { ContactsPage } from './pages/contacts/ContactsPage';
+import { CatalogPage } from './pages/catalog/CatalogPage';
+import { AnimatedHamburger, Item } from './shared/AnimatedHamburger';
 
 export const App: React.FC = () => {
   const [items, setItems] = useState<Item[]>([]);
