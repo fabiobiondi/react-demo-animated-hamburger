@@ -7,13 +7,14 @@ export const ContactsPage: React.FC = () => {
   return <div className="page">
     <div className="page-wrapper">
       <h2 className="title">Contacts Page</h2>
-      <ContactForm />
 
+      <ContactForm />
       <MapQuest city="Trieste" width={300} height={200} />
 
       <NavLink to="/">
         <i className="fa fa-times close-button" />
       </NavLink>
+
     </div>
   </div>
 };
