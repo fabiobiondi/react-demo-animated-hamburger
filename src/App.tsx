@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Axios from 'axios';
 import { HomePage } from './pages/home/HomePage';
-import { ContactsPage } from './pages/contacts/ContactsPage';
+import { ContactsPage } from './pages/contact/ContactsPage';
 import { CatalogPage } from './pages/catalog/CatalogPage';
 import { AnimatedHamburger, Item } from './shared/AnimatedHamburger';
 
