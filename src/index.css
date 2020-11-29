@@ -1,5 +1,3 @@
-
-
 /*https://codepen.io/lbebber/pen/RNgBPP*/
 
 body {
@@ -7,6 +5,7 @@ body {
   color: white;
   text-align: center;
   margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
