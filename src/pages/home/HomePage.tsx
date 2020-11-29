@@ -6,6 +6,10 @@ export const HomePage: React.FC = () => {
     <div className="page-wrapper">
       <h3 className="title">Home Page</h3>
 
+      <p>
+        Nothing to show :)
+      </p>
+
       <NavLink to="/">
         <i className="fa fa-times close-button" />
       </NavLink>

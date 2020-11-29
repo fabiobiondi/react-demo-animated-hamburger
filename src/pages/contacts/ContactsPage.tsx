@@ -6,7 +6,7 @@ import { ContactForm } from './components/ContactForm';
 export const ContactsPage: React.FC = () => {
   return <div className="page">
     <div className="page-wrapper">
-      <h2 className="title">Contacts Page</h2>
+      <h2 className="title">Contacts</h2>
 
       <ContactForm />
       <MapQuest city="Trieste" width={300} height={200} />

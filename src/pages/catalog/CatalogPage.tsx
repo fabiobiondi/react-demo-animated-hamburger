@@ -9,7 +9,7 @@ export const CatalogPage: React.FC = () => {
 
   return <div className="page">
     <div className="page-wrapper">
-      <h3 className="title">Catalog Page</h3>
+      <h3 className="title">Catalog</h3>
       <CatalogList items={catalog} />
       <NavLink to="/">
         <i className="fa fa-times close-button" />
