@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import { useHistory } from 'react-router-dom';
 
 export interface Item {
   icon: string;
@@ -8,15 +9,15 @@ export interface Item {
 
 export interface AnimatedHamburgerProps {
   items: Item[];
-  iconClick: (url: string) => void;
 }
 
 export const AnimatedHamburger: React.FC<AnimatedHamburgerProps> = (props) => {
   const [open, setOpen] = useState<boolean>(false);
+  const history = useHistory()
 
   const iconClickHandler = (url: string) => {
     setOpen(false);
-    props.iconClick(url);
+    history.push(url)
   }
 
   return <nav className="menu">

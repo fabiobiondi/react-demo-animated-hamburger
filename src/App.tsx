@@ -16,19 +16,11 @@ export const App: React.FC = () => {
       })
   }, []);
 
-  const goto = (url: string) => {
-    // do anything
-    // change route (/my-page)
-    window.location.pathname = url;
-    // or open a new location (http://...)
-    // window.open(url)
-  }
-
   return (
     <div>
-      <AnimatedHamburger items={items} iconClick={goto} />
-
       <BrowserRouter>
+        <AnimatedHamburger items={items} />
+
         <Switch>
           <Route path="/home">
             <HomePage />
